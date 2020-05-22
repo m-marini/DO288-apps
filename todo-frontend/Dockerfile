@@ -8,7 +8,7 @@ LABEL version="1.0" \
 	io.openshift.description="todo app" \
 	io.openshift.display-name="todo app" \
 	io.openshift.expose-services="8080/http" \
-	io.openshift.tags="nginx" \
+	io.openshift.tags="nginx"
 
 
 ENV BACKEND_HOST=localhost:8081
