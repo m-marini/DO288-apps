@@ -5,13 +5,11 @@ pipeline {
     }
     agent {
       node {
-        //TODO: Add label for Node.js jenkins agent
-	labels 'nodejs'
+        labels 'nodejs'
       }
     }
 
     environment {
-        //TODO: Edit these vars as per your env
         DEV_PROJECT = "marco-marini-unicredit-eu-books-dev"
         STAGE_PROJECT = "marco-marini-unicredit-eu-books-stage"
         APP_GIT_URL = "https://github.com/m-marini/DO288-apps"
